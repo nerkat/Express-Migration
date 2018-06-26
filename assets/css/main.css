@@ -2029,6 +2029,11 @@ ul li > ul > li.active > a {
   transition: all 0.6s ease;
 }
 
+#clients .owl-wrapper {
+  display: flex !important;
+  justify-content: center;
+}
+
 #clients #clients-scroller img {
   opacity: 0.5;
   max-width: 100%;
@@ -3588,18 +3593,22 @@ i.icon-lg {
   font-size: 70px;
   letter-spacing: 1px;
   margin-bottom: 15px;
+  text-shadow: 2px 2px 2px #000000c4;
+
 }
 
 #carousel-area .carousel-item .carousel-caption h3 {
   font-family: "Open Sans", sans-serif;
   color: #fff;
-  font-size: 24px;
+  font-size: 28px;
   color: #fff;
   font-weight: 100;
+  text-shadow: 2px 2px 2px #000000c4;
 }
 
 #carousel-area .carousel-item .carousel-caption .btn {
   margin: 30px 15px;
+  box-shadow: 2px 2px 2px #000000c4;
 }
 
 #carousel-area .active {
