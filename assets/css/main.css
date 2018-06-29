@@ -1044,6 +1044,13 @@ ul li > ul > li.active > a {
   }
 }
 
+/* logo responsive */
+@media screen and (max-width: 991px) {
+  .navbar-brand img {
+    max-width: 200px;
+  }
+}
+
 .top_search_con {
   background: #fff;
   height: 38px;
@@ -2019,6 +2026,11 @@ ul li > ul > li.active > a {
 /* ==========================================================================
    Clients Section Start
    ========================================================================== */
+
+#clients {
+  padding-top: 0px;
+}
+
 #clients .client-item-wrapper {
   text-align: center;
   border: 1px solid #ddd;
@@ -3553,6 +3565,7 @@ i.icon-lg {
   overflow: hidden;
   transition-property: opacity;
   transition-duration: 1s;
+  max-height: 650px;
 }
 
 #carousel-area .carousel-inner .active {
@@ -3594,7 +3607,6 @@ i.icon-lg {
   letter-spacing: 1px;
   margin-bottom: 15px;
   text-shadow: 2px 2px 2px #000000c4;
-
 }
 
 #carousel-area .carousel-item .carousel-caption h3 {
@@ -3743,4 +3755,12 @@ i.icon-lg {
 
 .portfolio-controls ul li a.btn i.fa {
   font-size: 37px;
+}
+
+/* ==========================================================================
+   custome addons style
+   ========================================================================== */
+
+.slicknav_nav .slicknav_row {
+  margin: 0 !important;
 }
