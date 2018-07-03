@@ -3772,6 +3772,9 @@ i.icon-lg {
   }
 }
 
+.content-slider .carousel-item{
+  max-height: 450px !important;
+}
 
 /* @media (min-width: 1024px) {
   #carousel-area .carousel-item {
