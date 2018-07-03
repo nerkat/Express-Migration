@@ -3764,3 +3764,23 @@ i.icon-lg {
 .slicknav_nav .slicknav_row {
   margin: 0 !important;
 }
+
+@media (max-width: 767px) {
+  #carousel-area .carousel-item {
+    height: auto !important;
+    max-height: 360px !important;
+  }
+}
+
+
+/* @media (min-width: 1024px) {
+  #carousel-area .carousel-item {
+    max-height: 800px !important;
+  }
+}
+
+@media (min-width: 1440px) {
+  #carousel-area .carousel-item {
+    max-height: 1200px !important;
+  }
+} */
