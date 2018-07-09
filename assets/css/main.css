@@ -3611,11 +3611,10 @@ i.icon-lg {
 
 #carousel-area .carousel-item .carousel-caption h3 {
   font-family: "Open Sans", sans-serif;
+  font-size: 26px;
   color: #fff;
-  font-size: 28px;
-  color: #fff;
-  font-weight: 100;
-  text-shadow: 2px 2px 2px #000000c4;
+  font-weight: bold;
+  text-shadow: 2px 2px 2px #000000;
 }
 
 #carousel-area .carousel-item .carousel-caption .btn {
@@ -3772,7 +3771,7 @@ i.icon-lg {
   }
 }
 
-.content-slider .carousel-item{
+.content-slider .carousel-item {
   max-height: 450px !important;
 }
 
