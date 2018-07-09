@@ -3775,6 +3775,12 @@ i.icon-lg {
   max-height: 450px !important;
 }
 
+@media (max-width: 767px) {
+  #carousel-area .carousel-item .carousel-caption h3 {
+    font-size: 12px !important;
+  }
+}
+
 /* @media (min-width: 1024px) {
   #carousel-area .carousel-item {
     max-height: 800px !important;
