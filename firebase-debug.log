@@ -1,0 +1,26 @@
+[debug] [2018-07-09T08:29:30.949Z] ----------------------------------------------------------------------
+[debug] [2018-07-09T08:29:30.952Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\nerka\AppData\Roaming\npm\node_modules\firebase-tools\bin\firebase deploy
+[debug] [2018-07-09T08:29:30.952Z] CLI Version:   3.17.7
+[debug] [2018-07-09T08:29:30.952Z] Platform:      win32
+[debug] [2018-07-09T08:29:30.952Z] Node Version:  v8.11.1
+[debug] [2018-07-09T08:29:30.953Z] Time:          Mon Jul 09 2018 15:29:30 GMT+0700 (SE Asia Standard Time)
+[debug] [2018-07-09T08:29:30.953Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2018-07-09T08:29:30.970Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2018-07-09T08:29:30.971Z] > authorizing via signed-in user
+[debug] [2018-07-09T08:29:30.975Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects/expressresource-be279  
+  
+ Mon Jul 09 2018 15:29:30 GMT+0700 (SE Asia Standard Time)
+[debug] [2018-07-09T08:29:32.784Z] <<< HTTP RESPONSE 200
+[debug] [2018-07-09T08:29:32.785Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/database/expressresource-be279/tokens  
+  
+ Mon Jul 09 2018 15:29:32 GMT+0700 (SE Asia Standard Time)
+[debug] [2018-07-09T08:29:34.006Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Deploying to 'expressresource-be279'...
+[info] 
+[info] i  deploying hosting
+[info] i  hosting: preparing . directory for upload...
+[debug] [2018-07-09T08:29:44.096Z] >>> HTTP REQUEST PUT https://deploy.firebase.com/v1/hosting/expressresource-be279/uploads/-LGy9F7yOHL_xQCisdo2?fileCount=571&message=  
+  
+ Mon Jul 09 2018 15:29:44 GMT+0700 (SE Asia Standard Time)
