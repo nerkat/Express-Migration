@@ -1,51 +1,51 @@
-[debug] [2018-07-12T12:51:02.295Z] ----------------------------------------------------------------------
-[debug] [2018-07-12T12:51:02.301Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\nerka\AppData\Roaming\npm\node_modules\firebase-tools\bin\firebase deploy
-[debug] [2018-07-12T12:51:02.301Z] CLI Version:   3.17.7
-[debug] [2018-07-12T12:51:02.301Z] Platform:      win32
-[debug] [2018-07-12T12:51:02.302Z] Node Version:  v8.11.1
-[debug] [2018-07-12T12:51:02.303Z] Time:          Thu Jul 12 2018 19:51:02 GMT+0700 (SE Asia Standard Time)
-[debug] [2018-07-12T12:51:02.303Z] ----------------------------------------------------------------------
+[debug] [2018-07-12T18:09:02.162Z] ----------------------------------------------------------------------
+[debug] [2018-07-12T18:09:02.164Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\nerka\AppData\Roaming\npm\node_modules\firebase-tools\bin\firebase deploy
+[debug] [2018-07-12T18:09:02.165Z] CLI Version:   3.17.7
+[debug] [2018-07-12T18:09:02.165Z] Platform:      win32
+[debug] [2018-07-12T18:09:02.165Z] Node Version:  v8.11.1
+[debug] [2018-07-12T18:09:02.165Z] Time:          Fri Jul 13 2018 01:09:02 GMT+0700 (SE Asia Standard Time)
+[debug] [2018-07-12T18:09:02.165Z] ----------------------------------------------------------------------
 [debug] 
-[debug] [2018-07-12T12:51:02.335Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
-[debug] [2018-07-12T12:51:02.336Z] > authorizing via signed-in user
-[debug] [2018-07-12T12:51:02.345Z] > refreshing access token with scopes: ["email","https://www.googleapis.com/auth/cloud-platform","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","openid"]
-[debug] [2018-07-12T12:51:02.346Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token  
+[debug] [2018-07-12T18:09:02.188Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2018-07-12T18:09:02.188Z] > authorizing via signed-in user
+[debug] [2018-07-12T18:09:02.190Z] > refreshing access token with scopes: ["email","https://www.googleapis.com/auth/cloud-platform","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","openid"]
+[debug] [2018-07-12T18:09:02.191Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token  
  { refresh_token: '1/Srqeev2OFArmnBwd9nGTLjIYkHRfcbfqpCKCWigY3mN2cAWWG7sPqiSXrXApj4pr',
   client_id: '563584335869-fgrhgmd47bqnekij5i8b5pr03ho849e6.apps.googleusercontent.com',
   client_secret: 'j9iVZfS8kkCEFUPaAeJV0sAi',
   grant_type: 'refresh_token',
   scope: 'email https://www.googleapis.com/auth/cloud-platform https://www.googleapis.com/auth/cloudplatformprojects.readonly https://www.googleapis.com/auth/firebase openid' } 
- Thu Jul 12 2018 19:51:02 GMT+0700 (SE Asia Standard Time)
-[debug] [2018-07-12T12:51:02.932Z] <<< HTTP RESPONSE 200
-[debug] [2018-07-12T12:51:02.948Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects/expressresource-be279  
+ Fri Jul 13 2018 01:09:02 GMT+0700 (SE Asia Standard Time)
+[debug] [2018-07-12T18:09:02.613Z] <<< HTTP RESPONSE 200
+[debug] [2018-07-12T18:09:02.620Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects/expressresource-be279  
   
- Thu Jul 12 2018 19:51:02 GMT+0700 (SE Asia Standard Time)
-[debug] [2018-07-12T12:51:04.543Z] <<< HTTP RESPONSE 200
-[debug] [2018-07-12T12:51:04.544Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/database/expressresource-be279/tokens  
+ Fri Jul 13 2018 01:09:02 GMT+0700 (SE Asia Standard Time)
+[debug] [2018-07-12T18:09:04.250Z] <<< HTTP RESPONSE 200
+[debug] [2018-07-12T18:09:04.253Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/database/expressresource-be279/tokens  
   
- Thu Jul 12 2018 19:51:04 GMT+0700 (SE Asia Standard Time)
-[debug] [2018-07-12T12:51:05.589Z] <<< HTTP RESPONSE 200
+ Fri Jul 13 2018 01:09:04 GMT+0700 (SE Asia Standard Time)
+[debug] [2018-07-12T18:09:05.339Z] <<< HTTP RESPONSE 200
 [info] 
 [info] === Deploying to 'expressresource-be279'...
 [info] 
 [info] i  deploying storage, hosting
-[debug] [2018-07-12T12:51:07.041Z] >>> HTTP REQUEST GET https://appengine.googleapis.com/v1/apps/expressresource-be279  
+[debug] [2018-07-12T18:09:07.130Z] >>> HTTP REQUEST GET https://appengine.googleapis.com/v1/apps/expressresource-be279  
   
- Thu Jul 12 2018 19:51:07 GMT+0700 (SE Asia Standard Time)
-[debug] [2018-07-12T12:51:08.867Z] <<< HTTP RESPONSE 200
+ Fri Jul 13 2018 01:09:07 GMT+0700 (SE Asia Standard Time)
+[debug] [2018-07-12T18:09:09.266Z] <<< HTTP RESPONSE 200
 [info] i  storage: checking storage.rules for compilation errors...
-[debug] [2018-07-12T12:51:08.879Z] >>> HTTP REQUEST POST https://firebaserules.googleapis.com/v1/projects/expressresource-be279:test  
+[debug] [2018-07-12T18:09:09.271Z] >>> HTTP REQUEST POST https://firebaserules.googleapis.com/v1/projects/expressresource-be279:test  
  { source: { files: [ [Object] ] } } 
- Thu Jul 12 2018 19:51:08 GMT+0700 (SE Asia Standard Time)
-[debug] [2018-07-12T12:51:10.612Z] <<< HTTP RESPONSE 200
+ Fri Jul 13 2018 01:09:09 GMT+0700 (SE Asia Standard Time)
+[debug] [2018-07-12T18:09:11.110Z] <<< HTTP RESPONSE 200
 [info] +  storage: rules file storage.rules compiled successfully
 [info] i  storage: uploading rules storage.rules...
-[debug] [2018-07-12T12:51:10.630Z] >>> HTTP REQUEST POST https://firebaserules.googleapis.com/v1/projects/expressresource-be279/rulesets  
+[debug] [2018-07-12T18:09:11.123Z] >>> HTTP REQUEST POST https://firebaserules.googleapis.com/v1/projects/expressresource-be279/rulesets  
  { source: { files: [ [Object] ] } } 
- Thu Jul 12 2018 19:51:10 GMT+0700 (SE Asia Standard Time)
-[debug] [2018-07-12T12:51:12.147Z] <<< HTTP RESPONSE 200
-[debug] [2018-07-12T12:51:12.147Z] [rules] created ruleset projects/expressresource-be279/rulesets/35963e87-9f58-4ad6-8c58-bcc03af9c733
+ Fri Jul 13 2018 01:09:11 GMT+0700 (SE Asia Standard Time)
+[debug] [2018-07-12T18:09:12.951Z] <<< HTTP RESPONSE 200
+[debug] [2018-07-12T18:09:12.952Z] [rules] created ruleset projects/expressresource-be279/rulesets/2f719215-e1e0-47a1-872c-57f5a7f45f9d
 [info] i  hosting: preparing . directory for upload...
-[debug] [2018-07-12T12:51:17.646Z] >>> HTTP REQUEST PUT https://deploy.firebase.com/v1/hosting/expressresource-be279/uploads/-LHDXsoagPN1b5XSheI3?fileCount=592&message=  
+[debug] [2018-07-12T18:09:17.428Z] >>> HTTP REQUEST PUT https://deploy.firebase.com/v1/hosting/expressresource-be279/uploads/-LHEffypHHiznDOHoJHp?fileCount=607&message=  
   
- Thu Jul 12 2018 19:51:17 GMT+0700 (SE Asia Standard Time)
+ Fri Jul 13 2018 01:09:17 GMT+0700 (SE Asia Standard Time)
