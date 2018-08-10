@@ -67,7 +67,7 @@
   <script type="text/javascript" src="https://cdn.emailjs.com/dist/email.min.js"></script>
   <script type="text/javascript">
     (function () {
-      emailjs.init("user_9KDzkxSHr3cjFFIrGopeO");
+      emailjs.init("user_jzHzBP0g45hluBInHEYDz");
     })();
   </script>
 
@@ -179,7 +179,7 @@
               </ul> -->
           </li>
           <li>
-            <a href="#">services</a>
+            <a href="#">Services</a>
             <ul>
               <li>
                 <a href="Trader-Moves.html">Trader Moves</a>
@@ -598,7 +598,7 @@
       var subject = document.getElementById('msg_subject').value;
       var msg = document.getElementById('message').value;
 
-      emailjs.send("default_service", "emailcv", { name: name, email: email, subject: subject, msg: msg ,url:url})
+      emailjs.send("default_service", "cv_form", { name: name, email: email, subject: subject, msg: msg ,url:url})
         .then(function (response) {
           console.log("SUCCESS. status=%d, text=%s", response.status, response.text);
           document.getElementById("contactForm").reset();

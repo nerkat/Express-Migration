@@ -44,7 +44,7 @@
   <script type="text/javascript" src="https://cdn.emailjs.com/dist/email.min.js"></script>
   <script type="text/javascript">
     (function () {
-      emailjs.init("user_9KDzkxSHr3cjFFIrGopeO");
+      emailjs.init("user_jzHzBP0g45hluBInHEYDz");
     })();
   </script>
 
@@ -157,7 +157,7 @@
                   </ul> -->
           </li>
           <li>
-            <a href="#">services</a>
+            <a href="#">Services</a>
             <ul>
               <li>
                 <a href="Trader-Moves.html">Trader Moves</a>
@@ -423,8 +423,8 @@
               <!-- <i class="fa fa-map-marker icon-box icon-xs"></i>4211, 2367 Nash Street , Dearborn, Michigan<br> -->
               <i class="fa fa-phone icon-box icon-xs"></i>(+44) 2071013932
               <br>
-              <a href="mailto:sales@expressmigration.co.uk">
-                <i class="fa fa-envelope icon-box icon-xs"></i> sales@expressmigration.co.uk</a>
+          
+                <i class="fa fa-envelope icon-box icon-xs"></i> sales@expressmigration.co.uk
             </address>
           </div>
           <div class="contact-widget office-location">
@@ -691,7 +691,7 @@
       var subject = document.getElementById('msg_subject').value;
       var msg = document.getElementById('message').value;
 
-      emailjs.send("default_service", "template_6bJuP8w8", { name: name, email: email, subject: subject, msg: msg })
+      emailjs.send("default_service", "contact_form", { name: name, email: email, subject: subject, msg: msg })
         .then(function (response) {
           console.log("SUCCESS. status=%d, text=%s", response.status, response.text);
           document.getElementById("contactForm").reset();
